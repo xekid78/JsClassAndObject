@@ -1,8 +1,13 @@
-class Hello {
-    helloworld() {
-        console.log("Hello World");
-    }
-}
+(function () {
+    'use strict';
 
-var hw = new Hello();
-hw.helloworld();
+    class Hello {
+        helloworld() {
+            console.log("Hello World");
+        }
+    }
+
+    var hw = new Hello();
+    hw.helloworld();
+    
+})();
